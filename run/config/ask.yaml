@@ -1,0 +1,44 @@
+data_path: './datasets'
+save_dataset: True
+dataset_save_path: './saved/ask-dataset.pth'
+gpu_id: '5'
+worker: 10
+
+# Atomic File Format
+field_separator: "\t"
+seq_separator: " "
+
+# Common Features
+USER_ID_FIELD: q_id
+ITEM_ID_FIELD: a_id
+RATING_FIELD: label
+TIME_FIELD: timestamp
+#DIRECT_FIELD: direct
+seq_len: ~
+# Label for Point-wise DataLoader
+LABEL_FIELD: label
+threshold:
+    label: 0.5
+# NegSample Prefix for Pair-wise DataLoader
+NEG_PREFIX: neg_
+
+USER_LIST_LENGTH_FIELD: q_list_length   # (str) Field name of the feature representing item sequences' length.
+ITEM_LIST_LENGTH_FIELD: a_list_length   # (str) Field name of the feature representing item sequences' length.
+LIST_SUFFIX: _list              # (str) Suffix of field names which are generated as sequences.
+MAX_LIST_LENGTH: 50        # (int) Maximum length of each generated sequence.
+POSITION_FIELD: position_id     # (str) Field name of the generated position sequence.
+NEG_USERS_FIELD: neg_q
+NEG_ITEMS_FIELD: neg_a
+
+train_batch_size: 1024
+eval_batch_size: 20480
+
+eval_neg_num: 100
+metrics: ["Recall","Precision","MRR","NDCG"]
+topk: [5]
+valid_metric: NDCG@5
+
+learning_rate: 0.001
+kd_loss_weight: 0.003
+t_weight: 2.0
+
