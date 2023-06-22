@@ -41,8 +41,8 @@ Please consider citing the following papers as the references if you use our cod
 
 ```
 @article{zheng2023reseq,
+	title = {Reciprocal Sequential Recommendation},
   author = {Bowen Zheng and Yupeng Hou and Wayne Xin Zhao and Yang Song and Hengshu Zhu},
-  title = {Reciprocal Sequential Recommendation},
   journal={arXiv preprint},
   year={2023}
 }
@@ -54,10 +54,10 @@ Please consider citing the following papers as the references if you use our cod
   year={2021}
 }
 
-@article{zhao2022recbole,
+@inproceedings{zhao2022recbole,
   title={RecBole 2.0: Towards a More Up-to-Date Recommendation Library},
   author={Zhao, Wayne Xin and Hou, Yupeng and Pan, Xingyu and Yang, Chen and Zhang, Zeyu and Lin, Zihan and Zhang, Jingsen and Bian, Shuqing and Tang, Jiakai and Sun, Wenqi and others},
-  journal={arXiv preprint arXiv:2206.07351},
+  booktitle={{CIKM}},
   year={2022}
 }
 ```
