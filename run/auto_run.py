@@ -1,6 +1,6 @@
 import os
 
-python = '/home/zhengbowen/anaconda3/envs/recbole/bin/python'
+python = 'python' #Your virtual environment path
 format_str=python+' ../main.py --model={} --dataset={} --config_files={}'
 model='ReSeq'
 dataset='ask'

@@ -1,7 +1,7 @@
 data_path: './datasets'
 save_dataset: True
 dataset_save_path: './saved/ask-dataset.pth'
-gpu_id: '5'
+gpu_id: '0'
 worker: 10
 
 # Atomic File Format
