@@ -41,7 +41,7 @@ Please consider citing the following papers as the references if you use our cod
 
 ```
 @article{zheng2023reseq,
-	title = {Reciprocal Sequential Recommendation},
+  title = {Reciprocal Sequential Recommendation},
   author = {Bowen Zheng and Yupeng Hou and Wayne Xin Zhao and Yang Song and Hengshu Zhu},
   journal={arXiv preprint},
   year={2023}
