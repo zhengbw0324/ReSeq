@@ -37,7 +37,7 @@ python auto_run.py
 
 The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole) and [RecBole-PJF](https://github.com/RUCAIBox/RecBole-PJF).
 
-Please consider citing the following papers as the references if you use our codes.
+Please consider citing the following papers as the references if you use our code.
 
 ```
 @article{zheng2023reseq,
