@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation for the paper:
 
-> Reciprocal Sequential Recommendation. RecSys 2023
+> [Reciprocal Sequential Recommendation. RecSys 2023](https://arxiv.org/abs/2306.14712)
 
 ## Overview
 
@@ -40,10 +40,10 @@ The implementation is based on the open-source recommendation library [RecBole](
 Please consider citing the following papers as the references if you use our code.
 
 ```
-@article{zheng2023reseq,
-  title = {Reciprocal Sequential Recommendation},
-  author = {Bowen Zheng and Yupeng Hou and Wayne Xin Zhao and Yang Song and Hengshu Zhu},
-  journal={arXiv preprint},
+@article{zheng2023reciprocal,
+	title={Reciprocal Sequential Recommendation}, 
+	author={Bowen Zheng and Yupeng Hou and Wayne Xin Zhao and Yang Song and Hengshu Zhu},
+  journal={arXiv preprint 2306.14712},
   year={2023}
 }
 
